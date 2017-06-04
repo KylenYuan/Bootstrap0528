@@ -8,6 +8,21 @@
   margin-top: 7px;
 }
 
-#menu{
-  
+#menu-wrapper{
+  width: 80%;
+  text-align: right;
+}
+
+#menu a li{
+  display: inline-block;
+  color: #167d90;
+  font-size: 24px;
+  padding: 0 30px;
+  font-weight: bold;
+}
+
+#menu li:hover{
+  color: white;
+  cursor: pointer;
+  /*https://www.w3schools.com/cssref/pr_class_cursor.asp*/
 }
